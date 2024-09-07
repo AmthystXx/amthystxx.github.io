@@ -24,6 +24,10 @@ footer {
 
 .section-header {
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     width: auto;
+}
+
+.text {
+    font-size: 25px
 }
