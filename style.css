@@ -17,7 +17,12 @@ footer {
     border-radius: 20px;
     text-align: center;
     background-image: url(title.jpeg);
-    text-shadow:0px 0px 20px black;
+    text-shadow:0px 0px 10px black;
     font-size: 35px;
     color: white;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 35px;
 }
