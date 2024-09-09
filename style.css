@@ -1,12 +1,15 @@
+@font-face { 
+    font-family: Comfortaa; src: url(font/Comfortaa-VariableFont_wght.ttf); 
+}
+
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Comfortaa, sans-serif;
 }
 
 footer {
     text-align: center;
     padding: 5px;
-    background-color: lightgray;
-    color: black;
+    background-color: darkgray;
 }
 
 #title {
@@ -16,8 +19,8 @@ footer {
     margin: auto;
     border-radius: 20px;
     text-align: center;
-    background-image: url(title.jpeg);
-    text-shadow:0px 0px 10px black;
+    background-image: url(img/title.jpeg);
+    text-shadow:0px 0px 15px black;
     font-size: 35px;
     color: white;
 }
@@ -30,4 +33,23 @@ footer {
 
 .text {
     font-size: 20px; 
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color:rgb(0, 0, 0);
+        color:white
+    }
+
+    footer {
+        background-color: rgb(30,30,30);
+    }
+
+    a:visited {
+        color:blueviolet;
+    }
+
+    #title {
+        border: 10px solid white;
+    }
 }
