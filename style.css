@@ -4,6 +4,7 @@
 
 body {
     font-family: Comfortaa, sans-serif;
+    transition: all 1s
 }
 
 footer {
@@ -51,5 +52,4 @@ footer {
     #title {
         border: 10px solid white;
     }
-transition: all 1s
 }
