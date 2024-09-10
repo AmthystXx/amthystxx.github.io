@@ -38,18 +38,23 @@ footer {
 @media (prefers-color-scheme: dark) {
     body {
         background-color:rgb(0, 0, 0);
-        color:white
+        color:white;
+        transition: background-color 1s;
+        transition: color 1s;
     }
 
     footer {
         background-color: rgb(30,30,30);
+        transition: background-color 1s;
     }
 
     a:visited {
         color:blueviolet;
+        transition: color 1s
     }
 
     #title {
         border: 10px solid white;
+        transition: border 1s
     }
 }
