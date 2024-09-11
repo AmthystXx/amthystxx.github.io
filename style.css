@@ -62,7 +62,7 @@ footer {
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: rgb(242, 242, 242);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -70,11 +70,11 @@ footer {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(220, 220, 220);
   color: black;
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: rgb(218,177,218);
   color: white;
 }
