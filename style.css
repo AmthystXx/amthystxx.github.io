@@ -43,19 +43,6 @@ footer {
     font-size: 20px; 
 }
 
-@media (prefers-color-scheme: dark) {
-    --main-bg-color: black;
-    --main-text-color: white;
-    
-    footer {
-        background-color: rgb(30,30,30)
-    }
-    
-    a:visited {
-        color:blueviolet;
-    }
-}
-
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -78,4 +65,17 @@ footer {
 .topnav a.active {
   background-color: var(--main-text-color);
   color: var(--main-bg-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    --main-bg-color: black;
+    --main-text-color: white;
+    
+    footer {
+        background-color: rgb(30,30,30)
+    }
+    
+    a:visited {
+        color:blueviolet;
+    }
 }
