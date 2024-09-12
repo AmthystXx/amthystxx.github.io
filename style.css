@@ -76,6 +76,6 @@ footer {
 }
 
 .topnav a.active {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0,0,0);
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
 }
