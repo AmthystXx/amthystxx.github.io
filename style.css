@@ -1,15 +1,19 @@
-:root {
-    --main-bg-color: white;
-    --main-text-color: black;
-    --footer-bg-color: darkgray;
-    --visited-color: purple;
+@media (prefers-color-scheme: light) {
+    :root {
+        --main-bg-color: white;
+        --main-text-color: black;
+        --footer-bg-color: darkgray;
+        --visited-color: purple;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
-    --main-bg-color: black;
-    --main-text-color: white;
-    --footer-bg-color: rgb(30,30,30);
-    --visited-color: blueviolet;
+    :root {
+        --main-bg-color: black;
+        --main-text-color: white;
+        --footer-bg-color: rgb(30,30,30);
+        --visited-color: blueviolet;
+    }
 }
 
 @font-face { 
