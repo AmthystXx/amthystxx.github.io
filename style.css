@@ -44,21 +44,15 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: rgb(0, 0, 0);
-        color: white
-    }
-
+    --main-bg-color: black;
+    --main-text-color: white;
+    
     footer {
         background-color: rgb(30,30,30)
     }
-
+    
     a:visited {
         color:blueviolet;
-    }
-
-    #title {
-        border: 10px solid white;
     }
 }
 
