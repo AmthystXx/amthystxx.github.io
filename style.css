@@ -1,15 +1,15 @@
 :root {
     --main-bg-color: white;
     --main-text-color: black;
-    --footer-bg-color: darkgray
-    --visited-color: purple
+    --footer-bg-color: darkgray;
+    --visited-color: purple;
 }
 
 @media (prefers-color-scheme: dark) {
     --main-bg-color: black;
     --main-text-color: white;
-    --footer-bg-color: rgb(30,30,30)
-    --visited-color: blueviolet
+    --footer-bg-color: rgb(30,30,30);
+    --visited-color: blueviolet;
 }
 
 
@@ -20,8 +20,8 @@
 body {
     font-family: Comfortaa, sans-serif;
     transition: all 0.5s;
-    background-color: var(--main-bg-color)
-    color: var(--main-text-color)
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
 }
 
 footer {
