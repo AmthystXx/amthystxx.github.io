@@ -1,3 +1,8 @@
+:root {
+    --main-bg-color: white;
+    --main-text-color: black;
+}
+
 @font-face { 
     font-family: Comfortaa; src: url(font/Comfortaa-VariableFont_wght.ttf); 
 }
@@ -5,6 +10,8 @@
 body {
     font-family: Comfortaa, sans-serif;
     transition: all 0.5s;
+    background-color: var(--main-bg-color)
+    color: var(--main-text-color)
 }
 
 footer {
@@ -15,7 +22,7 @@ footer {
 
 #title {
     width: vw;
-    border: 10px solid black;
+    border: 10px solid var(--main-text-color);
     padding: 50px;
     margin: auto;
     border-radius: 20px;
