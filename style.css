@@ -12,7 +12,6 @@
     --visited-color: blueviolet;
 }
 
-
 @font-face { 
     font-family: Comfortaa; src: url(font/Comfortaa-VariableFont_wght.ttf); 
 }
@@ -28,6 +27,10 @@ footer {
     text-align: center;
     padding: 5px;
     background-color: var(--footer-bg-color);
+}
+
+a {
+    color: var(--visited-color);
 }
 
 #title {
