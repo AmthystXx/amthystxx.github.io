@@ -58,6 +58,13 @@ a {
     font-weight: normal;
 }
 
+.small-header {
+    text-align: center;
+    font-size: 25px;
+    width: auto;
+    font-weight: normal;
+}
+
 .text {
     font-size: 20px; 
 }
